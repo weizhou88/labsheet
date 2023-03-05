@@ -1,0 +1,35 @@
+header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+/* CSS styles for sidebar */
+sidebar {
+  background-color: lightgray;
+  float: left;
+  width: 200px;
+  height: 100%;
+  padding: 10px;
+}
+
+/* CSS styles for content area */
+main {
+  margin-left: 210px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CSS styles for canvas */
+canvas {
+  border: 1px solid black;
+}
